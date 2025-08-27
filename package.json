@@ -1,0 +1,28 @@
+{
+  "name": "solarized-lambda-light",
+  "displayName": "Solarized Lambda Light",
+  "description": "base on solarized color scheme",
+  "repository": "https://github.com/netlambda/solarized-lambda-light",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Solarized Lambda Light",
+        "uiTheme": "vs",
+        "path": "./themes/netlambda-color-theme.json"
+      },
+      {
+        "label": "Solarized Lambda Light Alt",
+        "uiTheme": "vs",
+        "path": "./themes/netlambda-color-theme-alt.json"
+      }
+    ]
+  },
+  "icon": "icon.png"
+}
